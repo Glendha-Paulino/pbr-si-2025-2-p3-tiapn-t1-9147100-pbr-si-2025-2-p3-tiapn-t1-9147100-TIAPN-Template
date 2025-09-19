@@ -79,13 +79,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve permitir que o Contratante solicite um serviço com detalhes. | ALTA | 
 |RNF-002| O sistema deve permitir a comunicação via chat entre Contratante e Prestador.| ALTA | 
 |RNF-003| O sistema deve permitir que o Prestador receba notificações de novas solicitações.| ALTA | 
-|RNF-004| O sistema deve gerenciar um sistema de pagamento seguro (retenção do valor).|  ALTA | 
+|RNF-004| O sistema deve gerenciar um sistema de pagamento seguro (retenção do valor).|  MÉDIA | 
 |RNF-005| O sistema deve permitir a avaliação mútua entre Contratante e Prestador.|ALTA | 
 |RNF-006| O sistema deve permitir a realização de chamadas de vídeo integradas. |  MÉDIA | 
 |RNF-007| O sistema deve permitir que o Prestador gerencie sua agenda.| MÉDIA | 
 |RNF-008| O sistema deve permitir que o Administrador acesse dados do banco de dados. |   ALTA  | 
 |RNF-009| O sistema deve permitir que o Administrador gere relatórios. | ALTA  | 
-|RNF-010| Deve processar requisições do usuário em no máximo 3s |  ALTA  | 
+|RNF-010| O sistema deve permitir alterar o cadastro de contratante e contratado  |  ALTA  |
+|RNF-011| O sistema deve permitir buscas com base em tipo de serviço pelo contratante.   |  ALTA  |
+|RNF-012|  O sistema deve permitir ao prestador de serviço incluir o tipo de serviço que ele presta. |  ALTA  | 
+|RNF-013|  O sistema deve permitir ao contratante fazer buscas com base em sua região |  ALTA  |
 
 ### Requisitos não Funcionais
 
@@ -96,6 +99,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| A plataforma deve garantir a segurança das transações financeiras e dos dados pessoais. | ALTA | 
 |RF-004| O sistema deve estar disponível 99,5% do tempo. | MÉDIA |
 |RF-005| A interface do Administrador deve ser intuitiva para facilitar a manutenção. | MÉDIA |
+|RF-006| Deve processar requisições do usuário em no máximo 3s | MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
