@@ -12,30 +12,23 @@ Restrições do Projeto: Para elencar as limitações e os fatores limitantes pa
 
 ## Personas
 
-Para o projeto "Mão na Massa", foram definidas três personas principais que representam os usuários-alvo da plataforma: o Contratante, o Prestador de Serviço e o Administrador.
+Para o projeto "Mão na Massa", foram definidas dois personas principais que representam os usuários-alvo da plataforma: o Contratante, o Prestador de Serviço e o Administrador.
 
-Nome: Ana Clara
-Idade: 42 anos
-Ocupação: Gerente de Recursos Humanos
-Motivação: Ana mora em um apartamento e está sempre ocupada com o trabalho. Quando precisa de um serviço em casa, como um eletricista ou um encanador, ela valoriza a rapidez e, acima de tudo, a segurança. Ela quer ter a certeza de que está contratando um profissional confiável e não quer perder tempo buscando orçamentos ou negociando.
+1. O Contratante
+Nome: João Victor
+Idade: 28 anos
+Ocupação: Professor de Educação Física
+Motivação: João Victor tem uma rotina intensa entre a academia e as aulas particulares. Ele gosta de manter a casa organizada, mas não entende de reparos técnicos. Valoriza agilidade e segurança, já que não tem tempo para lidar com várias negociações.
 
-Cenário: Ana precisa instalar um novo chuveiro. Ela não tem indicações de profissionais e tem receio de contratar alguém desconhecido pela internet. Ela busca uma solução que a ajude a encontrar um profissional qualificado, que tenha avaliações de outros usuários e que ofereça um pagamento seguro, para que ela possa se sentir mais tranquila.
+Cenário: João planeja receber amigos em casa para um churrasco no fim de semana e percebe que a área externa precisa de ajustes: uma tomada está queimada, o portão eletrônico apresenta falhas e a iluminação do quintal não funciona. Ele procura rapidamente por um profissional que consiga resolver todos esses pontos de uma vez, evitando que precise chamar diferentes prestadores.
 
 2. O Prestador de Serviço (Profissional)
-Nome: José Carlos
-Idade: 55 anos
-Ocupação: Eletricista e Encanador Autônomo
-Motivação: José é um profissional experiente, mas tem dificuldades para divulgar seu trabalho e encontrar novos clientes de forma constante. Ele não tem tempo para criar um site ou gerenciar redes sociais. Ele busca uma ferramenta que o ajude a encontrar novos trabalhos, organizar sua agenda e garantir que ele receba pelos serviços prestados de forma segura e eficiente.
+Nome: Marcos Silva
+Idade: 38 anos
+Ocupação: Técnico em Manutenção Residencial
+Motivação: Marcos é conhecido como “faz-tudo”: trabalha com reparos elétricos, pequenos consertos hidráulicos e manutenção geral em residências. Costuma atender em bairros próximos, mas quer aumentar sua clientela e conquistar clientes que valorizem sua versatilidade.
 
-Cenário: José quer aumentar sua renda e conquistar mais clientes. Atualmente, ele depende de indicações de boca a boca. Ele precisa de uma plataforma que o conecte com pessoas que precisam de seus serviços e que elimine a incerteza de pagamentos, já que muitos clientes costumam atrasar ou, em alguns casos, não pagam.
-
-3. O Administrador
-Nome: Glendha
-Idade: 20 anos
-Ocupação: Analista de Operações
-Motivação: Glendha é responsável por garantir o bom funcionamento da plataforma. Ela precisa de acesso a relatórios e ferramentas de gerenciamento para monitorar o desempenho, resolver problemas de usuários e manter a qualidade do serviço. Ela busca eficiência e dados concretos para tomar decisões informadas e otimizar a experiência do usuário.
-
-Cenário: Glendha precisa identificar quais tipos de serviço estão em alta e quais profissionais têm maior demanda. Ela também precisa emitir relatórios de atividades para a liderança e, ocasionalmente, intervir para resolver disputas entre contratantes e prestadores ou banir usuários que violam as regras da plataforma.
+Cenário: Marcos busca oportunidades de atender clientes que precisam de múltiplos reparos em um único atendimento. Ele vê nas plataformas digitais uma forma de mostrar seu diferencial: resolver vários problemas domésticos de forma rápida e segura, economizando tempo para o cliente.
 
 
 ## Histórias de Usuários
@@ -65,7 +58,7 @@ Com base nas personas, as seguintes histórias de usuários são relevantes para
 |Administrador       |gerar relatórios               | monitorar o desempenho da plataforma e tomar decisões.|
 |Administrador       | alterar as permissões de usuários               | garantir que apenas os perfis designados tenham acesso a funcionalidades específicas.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 
 ## Requisitos
