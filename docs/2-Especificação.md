@@ -1,44 +1,79 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Este documento detalha as especificações do projeto "Mão na Massa", uma plataforma digital que conecta clientes a prestadores de serviços técnicos e manuais. A partir da documentação de contexto fornecida, este relatório abrange a definição do problema, a ideia da solução, e as especificações técnicas e de negócio. Para isso, foram utilizadas as seguintes técnicas e ferramentas:
 
-Esta seção descreve a solução proposta a partir da perspectiva do usuário. São apresentadas as **personas**, as **histórias de usuários**, os **requisitos funcionais e não funcionais** e as **restrições** do projeto.  
+Definição de Personas: Para representar os usuários-alvo da plataforma.
 
-Para elaborar esta etapa, utilizamos as seguintes **técnicas e ferramentas**:  
-- **Personas**: criadas com base em perfis de alunos, professores e gestores da PUC Minas, aplicando **mapa de empatia** e levantamento de stakeholders.  
-- **Histórias de usuários (User Stories)**: elaboradas com base em práticas ágeis, utilizando o modelo **EU COMO... QUERO... PARA...**.  
-- **Requisitos funcionais e não funcionais**: definidos a partir das histórias e priorizados pela técnica **MoSCoW (Must, Should, Could, Won’t)**.  
-- **Restrições**: estabelecidas de acordo com as normas institucionais e de segurança digital da PUC Minas. 
+Histórias de Usuários: Para descrever as funcionalidades do sistema a partir da perspectiva do usuário.
+
+Requisitos Funcionais e Não Funcionais: Para detalhar o escopo técnico do projeto.
+
+Restrições do Projeto: Para elencar as limitações e os fatores limitantes para a execução do projeto.
 
 ## Personas
 
-1. **Clara Monteverde (Aluna):**  21 anos, estudante de Análise e Desenvolvimento de Sistemas. Mora em Belo Horizonte, solteira. Busca otimizar seus estudos, utilizando a internet de forma segura e confiável.  
+Para o projeto "Mão na Massa", foram definidas três personas principais que representam os usuários-alvo da plataforma: o Contratante, o Prestador de Serviço e o Administrador.
 
-2. **Rafael Antunes (Professor):**  54 anos, professor de Algoritmos e Estrutura de Dados. Casado, 2 filhos, mora em Contagem. Deseja atender melhor seus alunos fora da sala de aula, oferecendo suporte digital.  
+1. O Contratante
+Nome: Ana Clara
+Idade: 42 anos
+Ocupação: Gerente de Recursos Humanos
+Motivação: Ana mora em um apartamento e está sempre ocupada com o trabalho. Quando precisa de um serviço em casa, como um eletricista ou um encanador, ela valoriza a rapidez e, acima de tudo, a segurança. Ela quer ter a certeza de que está contratando um profissional confiável e não quer perder tempo buscando orçamentos ou negociando.
 
-3. **Mariana Costa (Administradora):**  29 anos, responsável pela gestão administrativa e moderação. Casada, mãe de 1 filho, mora em BH. Busca manter a plataforma segura, organizada e dentro das normas institucionais.  
+Cenário: Ana precisa instalar um novo chuveiro. Ela não tem indicações de profissionais e tem receio de contratar alguém desconhecido pela internet. Ela busca uma solução que a ajude a encontrar um profissional qualificado, que tenha avaliações de outros usuários e que ofereça um pagamento seguro, para que ela possa se sentir mais tranquila.
 
-4. **Lucas Oliveira (Aluno):** 23 anos, faz estágio em desenvolvimento e cursa Engenharia de Software. Mora em Betim. Gosta de colaborar em fóruns, responder dúvidas e compartilhar materiais. Vê na plataforma uma oportunidade de reforçar o portfólio acadêmico.  
+2. O Prestador de Serviço (Profissional)
+Nome: José Carlos
+Idade: 55 anos
+Ocupação: Eletricista e Encanador Autônomo
+Motivação: José é um profissional experiente, mas tem dificuldades para divulgar seu trabalho e encontrar novos clientes de forma constante. Ele não tem tempo para criar um site ou gerenciar redes sociais. Ele busca uma ferramenta que o ajude a encontrar novos trabalhos, organizar sua agenda e garantir que ele receba pelos serviços prestados de forma segura e eficiente.
 
-5. **Fernanda Dias (Monitora):**  32 anos, tutora da área de TI no campus Barreiro. Mora em Belo Horizonte. Precisa acompanhar os alunos, sugerir materiais de apoio e validar respostas técnicas.  
+Cenário: José quer aumentar sua renda e conquistar mais clientes. Atualmente, ele depende de indicações de boca a boca. Ele precisa de uma plataforma que o conecte com pessoas que precisam de seus serviços e que elimine a incerteza de pagamentos, já que muitos clientes costumam atrasar ou, em alguns casos, não pagam.
 
+3. O Contratante
+Nome: João Victor 
+Idade: 28 anos 
+Ocupação: Professor de Educação Física Motivação: João tem uma rotina intensa entre academia e aulas particulares. Ele gosta de manter a casa organizada, mas não entende de reparos técnicos. Valoriza agilidade e segurança, já que não tem tempo para lidar com várias negociações. 
+
+Cenário: João planeja receber amigos em casa para um churrasco no fim de semana e percebe que a área externa precisa de ajustes: uma tomada está queimada, o portão eletrônico apresenta falhas e a iluminação do quintal não funciona. Ele procura rapidamente por um profissional que consiga resolver todos esses pontos de uma vez, evitando que precise chamar diferentes prestadores.
+
+4. O Prestador de Serviço (Profissional)
+Nome: Marcos Silva Idade:
+38 anos 
+Ocupação: Técnico em Manutenção Residencial
+Marcos é conhecido como “faz-tudo”: trabalha com reparos elétricos, pequenos consertos hidráulicos e manutenção geral em residências. 
+
+Cenário: Costuma atender em bairros próximos, mas quer aumentar sua clientela e conquistar clientes que valorizem sua versatilidade. Cenário: Marcos busca oportunidades de atender clientes que precisam de múltiplos reparos em um único atendimento. Ele vê em plataformas digitais uma forma de mostrar seu diferencial: resolver vários problemas domésticos de forma rápida e segura, economizando tempo para o cliente.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base nas personas, as seguintes histórias de usuários são relevantes para o projeto "Mão na Massa":
 
-## Histórias de Usuários
+|EU COMO | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Contratante  | solicitar um serviço detalhadamente (descrição, fotos e urgência)     | que os profissionais saibam exatamente o que eu preciso. |
+|Contratante| me comunicar com o prestador de serviço antes de fechar o negócio      | tirar dúvidas e negociar os detalhes do trabalho. |
+|Contratante| realizar o pagamento de forma segura dentro do aplicativo         | garantir que o valor só será repassado após a conclusão do serviço. |
+|Contratante| avaliar o prestador de serviço após a conclusão do trabalho        | contribuir para a reputação dele na plataforma e ajudar outros usuários.|
 
-| EU COMO...   | QUERO/PRECISO ...                  | PARA ...                                                      |
-|--------------|------------------------------------|----------------------------------------------------------------|
-| Clara Monteverde (Aluna)       | Tirar minhas dúvidas em um canal confiável | Otimizar meu aprendizado e me preparar para avaliações |
-| Lucas Oliveira (Aluno)      | Acessar materiais de diferentes disciplinas | Integrar meus estudos em um único ambiente |
-| Clara Monteverde (Aluna)       | Avaliar respostas de colegas        | Contribuir para a qualidade das interações |
-| Rafael Antunes (Professor)    | Responder alunos via web            | Apoiar o aprendizado e economizar tempo de atendimento individual |
-| Rafael Antunes (Professor)    | Indicar materiais complementares    | Direcionar melhor os estudos dos alunos |
-| Mariana Costa (Administradora)| Aplicar as políticas de uso         | Garantir que a plataforma seja usada de forma correta |
-| Mariana Costa (Administradora)| Gerar relatórios de uso e interações| Monitorar engajamento e desempenho da plataforma |
-| Fernanda Dias (Monitora)        | Validar respostas técnicas dos alunos| Garantir que o conteúdo publicado esteja correto e confiável |
+
+|EU COMO | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Prestador de Serviço  | ser notificado sobre novas solicitações de serviço em minha área de atuação         |que eu possa responder rapidamente e conseguir mais trabalhos.              |
+|Prestador de Serviço       |ter um chat integrado e poder fazer chamadas de vídeo                 | negociar o orçamento e visualizar o trabalho antes de aceitá-lo. |
+|Prestador de Serviço | receber o pagamento de forma segura e garantida      | que eu não tenha que me preocupar com inadimplência.  |
+|Prestador de Serviço  | avaliar o cliente após a conclusão do serviço       | que eu possa contribuir para a reputação dele na plataforma e ter um histórico de boas interações.     |
+
+
+
+|EU COMO | QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Administrador       | acessar dados do banco de dados    | realizar a manutenção da aplicação.             |
+|Administrador       |gerar relatórios               | monitorar o desempenho da plataforma e tomar decisões.|
+|Administrador       | alterar as permissões de usuários               | garantir que apenas os perfis designados tenham acesso a funcionalidades específicas.|
+
+Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 ## Requisitos
 
@@ -46,41 +81,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito  | Prioridade |
-|--------|-------------------------|------------|
-| RF-001 | Permitir cadastro e autenticação de usuários com credenciais da PUC | ALTA |
-| RF-002 | Permitir envio de dúvidas pelos alunos | ALTA |
-| RF-003 | Permitir que professores e tutores respondam dúvidas | ALTA |
-| RF-004 | Permitir que usuários avaliem respostas (curtida/nota) | MÉDIA |
-| RF-005 | Disponibilizar materiais de apoio e bibliografia recomendada | ALTA |
-| RF-006 | Permitir personalização do perfil do usuário (foto, bio, curso) | MÉDIA |
-| RF-007 | Emitir relatórios de participação e desempenho | MÉDIA |
-| RF-008 | Possibilitar moderação de conteúdos pela equipe administrativa | ALTA |
-| RF-009 | Manter registro de interações (perguntas, respostas, avaliações) | ALTA |
-| RF-010 | Permitir integração futura com calendário acadêmico e portal do aluno | BAIXA |
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RNF-001| O sistema deve permitir que o Contratante solicite um serviço com detalhes. | ALTA | 
+|RNF-002| O sistema deve permitir a comunicação via chat entre Contratante e Prestador.| ALTA | 
+|RNF-003| O sistema deve permitir que o Prestador receba notificações de novas solicitações.| ALTA | 
+|RNF-004| O sistema deve gerenciar um sistema de pagamento seguro (retenção do valor).|  MÉDIA | 
+|RNF-005| O sistema deve permitir a avaliação mútua entre Contratante e Prestador.|ALTA | 
+|RNF-006| O sistema deve permitir a realização de chamadas de vídeo integradas. |  MÉDIA | 
+|RNF-007| O sistema deve permitir que o Prestador gerencie sua agenda.| MÉDIA | 
+|RNF-008| O sistema deve permitir que o Administrador acesse dados do banco de dados. |   ALTA  | 
+|RNF-009| O sistema deve permitir que o Administrador gere relatórios. | ALTA  | 
+|RNF-010| O sistema deve permitir o cadastro de contratante e contratado | ALTA  | 
+|RNF-011| O sistema deve permitir alterar o cadastro de contratante e contratado | ALTA  | 
+|RNF-012| O sistema deve permitir buscas com base em tipo de serviço pelo contratante | ALTA  | 
+|RNF-013| O sistema deve permitir ao prestador de serviço incluir o tipo de serviço que ele presta | ALTA  |
+|RNF-014| O sistema deve permitir ao contratante fazer buscas com base em sua região | ALTA  |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O login deve ser realizado com as credenciais institucionais da PUC | ALTA | 
-|RNF-002| Todo tráfego de dados deve ser protegido por protocolos de segurança. |  ALTA | 
-|RNF-003| O sistema precisa diferenciar permissões de acordo com o perfil do usuário. | MÉDIA | 
-|RNF-004| Informações sensíveis, como senhas, devem ser armazenadas de forma criptografada. |  ALTA | 
-|RNF-005| A plataforma deve manter registros de atividades críticas para auditoria. |  ALTA |
-|RNF-006| O tempo de carregamento das páginas deve ser inferior a 2 segundos em situações normais. | MÉDIA | 
-|RNF-007| A aplicação deve suportar uma quantidade definida de acessos simultâneos sem perda significativa de desempenho. | MÉDIA | 
-|RNF-008| O código deve seguir boas práticas de desenvolvimento para facilitar melhorias. | MÉDIA | 
-|RNF-009| A arquitetura do sistema deve ser modular, favorecendo correções e novas implementações. |  MÉDIA | 
-|RNF-010| Deve haver documentação atualizada dos principais componentes. |  ALTA | 
-|RNF-011| A interface deve ser simples e intuitiva, de fácil uso para alunos e professores. | ALTA | 
-|RNF-012| O sistema deve seguir padrões de acessibilidade, garantindo acesso a pessoas com deficiência. |  ALTA | 
-|RNF-013| O layout precisa ser responsivo, funcionando bem em computadores, tablets e celulares. | MÉDIA | 
-|RNF-014| A aplicação deve funcionar nos principais navegadores atuais. | ALTA | 
-|RNF-015| Deve haver backups automáticos e periódicos do banco de dados. | MÉDIA |
-|RNF-016| Nenhum dado deve ser perdido em situações de queda do sistema. | ALTA | 
-|RNF-017| A plataforma deve possibilitar integrações futuras com outros serviços acadêmicos, como calendário e portal do aluno | BAIXA | 
-|RNF-018| O sistema deve possibilitar o acompanhamento de desempenho e uso. |  MÉDIA | 
+|------|-----------------------------------------|----|
+|RF-001| O sistema deve ser responsivo para rodar em dispositivos móveis (web,iOS e Android). | ALTA | 
+|RF-002| A plataforma deve ter um tempo de resposta máximo de 3 segundos para carregamento.  | MÉDIA |
+|RF-003| A plataforma deve garantir a segurança das transações financeiras e dos dados pessoais. | ALTA | 
+|RF-004| O sistema deve estar disponível 99,5% do tempo | MÉDIA |
+|RF-005| A interface do Administrador deve ser intuitiva para facilitar a manutenção. | MÉDIA |
+|RF-006| Deve processar requisições do usuário em no máximo 3s  | ALTA |
+
 
 ## Restrições
 
@@ -88,29 +116,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|R-01| A aplicação deve utilizar infraestrutura compatível com os padrões da PUC Minas. |
-|R-02| O banco de dados deve armazenar informações apenas em servidores autorizados e que atendam às normas da universidade. |
-|R-03| Apenas usuários com vínculo ativo com a PUC Minas poderão criar contas e acessar os conteúdos. |
-|R-04| Dados sensíveis não poderão ser compartilhados fora do ambiente institucional. |
-|R-05| Alunos só poderão postar dúvidas e respostas após autenticação no sistema. |
-|R-06| A moderação de conteúdos inapropriados ficará restrita à equipe administrativa da instituição. |
-|R-08| A plataforma deve seguir o padrão visual e de identidade institucional da PUC Minas. |
-|R-09| Somente informações autorizadas poderão ser integradas ao calendário acadêmico e bibliografia institucional. |
-|R-10| O acesso externo (fora da comunidade acadêmica da PUC) será restrito, salvo autorização expressa da instituição. |
-|R-11| O acesso será restrito a estudantes da área de Tecnologia da Informação da PUC Minas. |
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Não pode ser desenvolvido um módulo de backend, utilizando apenas ferramentas no-code. |
 
-## Matriz de Rastreabilidade
-A tabela abaixo mostra a relação entre as **Histórias de Usuários** e os **Requisitos funcionais e não-funcionais** que garantem sua implementação.
 
-| História de Usuário                                                                 | Requisitos Relacionados |
-|-------------------------------------------------------------------------------------|--------------------------|
-| **EU, Clara Monteverde, COMO aluna quero tirar minhas dúvidas em um canal confiável para otimizar meu aprendizado** | RF-002, RF-003, RNF-001, RNF-002 |
-| **EU, Clara Monteverde, COMO aluna quero acessar materiais de diferentes disciplinas para integrar meus estudos em um único ambiente** | RF-005, RF-009, RNF-013 |
-| **EU, Lucas Oliveira, COMO aluna quero avaliar respostas de colegas para contribuir para a qualidade das interações** | RF-004, RF-009 |
-| **EU, Rafael Antunes, COMO professor quero responder alunos via web para apoiar o aprendizado** | RF-003, RF-005, RNF-011 |
-| **EU, Rafael Antunes, COMO professor quero indicar materiais complementares para direcionar melhor os estudos dos alunos** | RF-005, RNF-010 |
-| **EU, Mariana Costa, COMO administradora quero aplicar as políticas de uso para garantir que a plataforma seja usada de forma correta** | RF-008, RNF-003, RNF-005 |
-| **EU, Mariana Costa, COMO administradora quero gerar relatórios de uso e interações para monitorar engajamento** | RF-007, RF-009, RNF-018 |
-| **EU, Rafael Antunes, COMO professor quero validar respostas técnicas dos alunos para garantir confiabilidade do conteúdo** | RF-003, RF-008, RNF-004 |
-| **EU, Lucas Oliveira, COMO aluno quero personalizar meu perfil para ter uma identidade no ambiente virtual** | RF-006, RNF-011, RNF-013 |
-| **EU, Mariana Costa, COMO administradora quero que apenas usuários com vínculo ativo possam acessar** | RF-001, RNF-001, R-03 |
